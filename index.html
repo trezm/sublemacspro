@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Sublemacspro by grundprinzip</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/grundprinzip/sublemacspro">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Sublemacspro</h1>
+            <h2>Making Sublime Text 2 more Emacs awesome</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/grundprinzip/sublemacspro/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/grundprinzip/sublemacspro/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h3>Welcome to SublemacsPro.</h3>
+
+<p>The reasoning behind writing these set of functions is that I love Emacs, however, the UI doesn't feel as snappy as other Mac apps. On the other hand I cannot move to another editor since many of those hyped editors is that they don't provide the keybindings I love.</p>
+
+<p>Then, I found Sublime Text 2. A completly customizable editor allowing you to easily modify all default behaviors so that they suit your editing sytle.</p>
+
+<p>So I wrote sublemacspro bringing Emacs keybindings and sugar to Sublime Text 2. Even though Emacs lives from the plugins, I beleive it is way easier to write new plugins in Python and integrate them in an Emacs-ish way to Sublime Text 2 than writing them in Lisp.</p>
+
+<h3>Installation</h3>
+
+<p>To install SublemacsPro you have to install <a href="http://wbond.net/sublime_packages/package_control">Package Control</a> as an automatic package manager for Sublime Text 2. Now you can easily install Sublemacs Pro and your installation will never be outdated. When you installed Package Control, hit <code>S-Shift P</code> to open up the command palette and type <code>install</code>. Now select "Package Control: Install Package". This will load all packages from the remore repository and you can select <code>sublemacspro</code> from the drop-down list.</p>
+
+<h3>Features</h3>
+
+<p>The following features are supported and merged [from][ot3] [other][ot] [approaches][ot2]
+and the base code of the new beta of [Sublime Text 2][subl].</p>
+
+<ul>
+<li>Kill line, region ... with kill ring. All the sugar you love with a nice UI with <code>M-w</code>, <code>C-w</code>, <code>C-y</code>
+</li>
+<li>Yank with free choice from kill ring using fancy overlay: Just press <code>C-Y</code> to access the kill ring and search for your last copy and pastie</li>
+<li>Rectangular cut and insert using <code>C-x r t</code> and <code>C-x r d</code>
+</li>
+<li>Named registers to store data using <code>C-x r s [register]</code> and <code>C-x r i [register]</code>
+</li>
+<li>Open a new line by <code>C+o</code>
+</li>
+<li>Find file at point <code>M-x f f a p</code> opens the file your current cursor points to</li>
+<li>Automatic mode detection like it's done in Emacs using prefixes <code>-*- c++ -*-</code>
+</li>
+<li>And many more ...</li>
+</ul><h3>Key Map</h3>
+
+<p>The key bindings are strictly oriented on their original Emacs counterpart,
+however, sometimes the action might be a little different due to other
+semantics.</p>
+
+<h3>Future</h3>
+
+<p>We will try to extend this more and more to provide more features from Emacs to
+Sublime Text 2 and make this my fast and beautiful Emacs replacement.</p>
+
+<h3>Authors and Contributors</h3>
+
+<p>2012 Martin Grund (<a href="https://github.com/grundprinzip" class="user-mention">@grundprinzip</a>), Brian M. Clapper (<a href="https://github.com/bmc" class="user-mention">@bmc</a>)</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/grundprinzip">grundprinzip</a> can be found on <a href="https://github.com/grundprinzip/sublemacspro">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-31385274-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
