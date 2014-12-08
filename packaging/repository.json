@@ -1,14 +1,14 @@
 [
 	{
-		"details": "https://github.com/grundprinzip/sublemacspro",
+		"details": "https://github.com/trezm/sublemacspro",
 		"releases": [
 			{
 				"sublime_text": "<3000",
-				"details": "https://github.com/grundprinzip/sublemacspro/tree/st2"
+				"details": "https://github.com/trezm/sublemacspro/tree/st2"
 			},
 			{
 				"sublime_text": "<=3000",
-				"details": "https://github.com/grundprinzip/sublemacspro/tags"
+				"details": "https://github.com/trezm/sublemacspro/tags"
 			}
 	  ]
 	}
